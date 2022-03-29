@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_danhMucSp"
+
+            android:title="Quản lý Danh Mục Sản Phẩm" />
+    <item
+        android:id="@+id/nav_sanPham"
+
+        android:title="Quản lý Sản Phẩm" />
+    <item
+        android:id="@+id/nav_HoaDon"
+
+        android:title="Quản lý Hóa Đơn" />
+    <item
+        android:id="@+id/nav_HoaDonChiTiet"
+
+        android:title="Quản lý Hóa Đơn Chi Tiết" />
+
+        <item android:id="@+id/sub_thongke"
+
+            android:title="Thống kê"/>
+
+    <item android:id="@+id/admin" android:title="Quyền Admin" android:visible="false">
+        <menu>
+            <item
+                android:id="@+id/sub_addUser"
+
+                android:title="Thêm người dùng"
+                />
+            <item
+                android:id="@+id/sub_danhsachTK"
+
+                android:title="Danh Sách Tài Khoản"/>
+
+        </menu>
+    </item>
+                <item
+                    android:id="@+id/sub_logout"
+
+                    android:title="Đăng xuất"/>
+
+
+
+</group>
+</menu>
