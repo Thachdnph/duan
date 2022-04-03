@@ -1,4 +1,4 @@
-package com.example.duan1.Model;
+package com.example.duan1.model;
 
 public class NhanVien {
     String maNv;

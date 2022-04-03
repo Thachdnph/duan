@@ -11,7 +11,7 @@ import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.example.duan1.DAO.NhavienDAO;
+import com.example.duan1.dao.NhavienDAO;
 
 
 public class LoginActivity extends AppCompatActivity {
@@ -42,17 +42,16 @@ public class LoginActivity extends AppCompatActivity {
 
 
         //cac event
+        btnHuy.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                System.exit(0);
+            }
+        });
         btnDangnhap.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 checkLogin();
-            }
-        });
-        btnHuy.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                edUsername.setText("");
-                edPassword.setText("");
             }
         });
 

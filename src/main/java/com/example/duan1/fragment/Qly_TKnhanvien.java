@@ -1,4 +1,4 @@
-package com.example.duan1.Fragment;
+package com.example.duan1.fragment;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -10,8 +10,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import com.example.duan1.Adapter.NhanVien_Adapter;
-import com.example.duan1.DAO.NhavienDAO;
+import com.example.duan1.adapter.NhanVien_Adapter;
+import com.example.duan1.dao.NhavienDAO;
 import com.example.duan1.R;
 
 

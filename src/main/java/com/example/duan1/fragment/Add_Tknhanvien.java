@@ -1,4 +1,4 @@
-package com.example.duan1.Fragment;
+package com.example.duan1.fragment;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -12,10 +12,9 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import com.example.duan1.DAO.NhavienDAO;
-import com.example.duan1.LoginActivity;
+import com.example.duan1.dao.NhavienDAO;
 import com.example.duan1.MainActivity;
-import com.example.duan1.Model.NhanVien;
+import com.example.duan1.model.NhanVien;
 import com.example.duan1.R;
 import com.google.android.material.textfield.TextInputEditText;
 

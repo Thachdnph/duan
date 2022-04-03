@@ -17,13 +17,13 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 
-import com.example.duan1.Fragment.Add_Tknhanvien;
-import com.example.duan1.Fragment.Qly_DanhMuc;
-import com.example.duan1.Fragment.Qly_HoaDon;
-import com.example.duan1.Fragment.Qly_HoaDonChiTiet;
-import com.example.duan1.Fragment.Qly_SanPham;
-import com.example.duan1.Fragment.Qly_TKnhanvien;
-import com.example.duan1.Fragment.Thongke;
+import com.example.duan1.fragment.Add_Tknhanvien;
+import com.example.duan1.fragment.Qly_DanhMuc;
+import com.example.duan1.fragment.Qly_HoaDon;
+import com.example.duan1.fragment.Qly_HoaDonChiTiet;
+import com.example.duan1.fragment.Qly_SanPham;
+import com.example.duan1.fragment.Qly_TKnhanvien;
+import com.example.duan1.fragment.Thongke;
 import com.google.android.material.navigation.NavigationView;
 
 

@@ -1,4 +1,4 @@
-package com.example.duan1.DAO;
+package com.example.duan1.dao;
 
 import android.annotation.SuppressLint;
 import android.content.ContentValues;
@@ -7,8 +7,8 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
 
-import com.example.duan1.Database.DbHelper;
-import com.example.duan1.Model.NhanVien;
+import com.example.duan1.database.DbHelper;
+import com.example.duan1.model.NhanVien;
 
 import java.util.ArrayList;
 import java.util.List;
